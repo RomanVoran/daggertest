@@ -5,14 +5,14 @@ import com.example.daggertest.data.DbRepo
 import dagger.Module
 import dagger.Provides
 
-@Module
-class DiModule {
+//@Module
+//class DiModule {
 
-    @Provides
-    fun getDb() = DbRepo()
-
-    @Provides
-    fun getNetwork() = NetworkRepo()
-
-
-}
+//    @Provides
+//    fun getDb() = DbRepo()
+//
+//    @Provides
+//    fun getNetwork() = NetworkRepo()
+//
+//
+//}
