@@ -1,20 +1,17 @@
-package com.example.daggertest
+package com.example.daggertest.presentation
 
 import android.Manifest
-import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import androidx.activity.result.ActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.activity.result.registerForActivityResult
 import androidx.activity.viewModels
-import androidx.core.app.ActivityOptionsCompat
-import androidx.lifecycle.lifecycleScope
 import com.appsgeyser.sdk.AppsgeyserSDK
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
+import com.example.daggertest.App
+import com.example.daggertest.data.NetworkRepo
+import com.example.daggertest.R
+import com.example.daggertest.data.DbRepo
 import javax.inject.Inject
 
 class MainActivity : AppCompatActivity() {

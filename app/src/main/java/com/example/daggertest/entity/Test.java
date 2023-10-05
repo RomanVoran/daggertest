@@ -1,4 +1,4 @@
-package com.example.daggertest;
+package com.example.daggertest.entity;
 
 import java.util.ArrayList;
 import java.util.List;

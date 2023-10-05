@@ -1,5 +1,6 @@
-package com.example.daggertest
+package com.example.daggertest.di
 
+import com.example.daggertest.presentation.MainActivity
 import dagger.Component
 
 @Component(modules = [DiModule::class])

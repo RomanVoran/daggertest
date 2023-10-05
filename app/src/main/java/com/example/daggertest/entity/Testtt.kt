@@ -1,6 +1,4 @@
-package com.example.daggertest
-
-import android.util.Log
+package com.example.daggertest.entity
 
 class Testtt<out T>() {
 

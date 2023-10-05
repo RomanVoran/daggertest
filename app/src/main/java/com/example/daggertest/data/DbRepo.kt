@@ -1,4 +1,4 @@
-package com.example.daggertest
+package com.example.daggertest.data
 
 import android.util.Log
 
